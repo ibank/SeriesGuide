@@ -112,7 +112,7 @@ public class SeriesContract {
         String OVERVIEW = Episodes.OVERVIEW;
     }
 
-    public static final String CONTENT_AUTHORITY = "com.battlelancer.seriesguide.donate.provider";
+    public static final String CONTENT_AUTHORITY = "com.battlelancer.seriesguide.x.provider";
 
     private static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 

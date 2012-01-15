@@ -1,7 +1,7 @@
 
 package com.battlelancer.seriesguide.ui;
 
-import com.battlelancer.seriesguide.donate.R;
+import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.thetvdbapi.SearchResult;
 
 import android.app.AlertDialog;

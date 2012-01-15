@@ -1,7 +1,7 @@
 
 package com.battlelancer.seriesguide.ui;
 
-import com.battlelancer.seriesguide.donate.R;
+import com.battlelancer.seriesguide.x.R;
 
 import android.os.Bundle;
 import android.support.v4.app.ActionBar;

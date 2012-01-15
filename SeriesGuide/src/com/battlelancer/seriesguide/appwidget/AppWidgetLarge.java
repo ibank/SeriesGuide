@@ -1,7 +1,7 @@
 
 package com.battlelancer.seriesguide.appwidget;
 
-import com.battlelancer.seriesguide.donate.R;
+import com.battlelancer.seriesguide.x.R;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;

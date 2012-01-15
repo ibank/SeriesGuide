@@ -6,7 +6,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.widget.ImageView;
-import com.battlelancer.seriesguide.donate.R;
+import com.battlelancer.seriesguide.x.R;
 
 public class WatchedBox extends ImageView {
 

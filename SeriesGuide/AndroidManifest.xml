@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:installLocation="auto"
-    package="com.battlelancer.seriesguide.donate"
+    package="com.battlelancer.seriesguide.x"
     android:versionCode="134"
     android:versionName="2.4.2x" >
 
@@ -18,9 +18,8 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/SeriesGuideTheme" >
-        <meta-data
-            android:name="com.google.android.backup.api_key"
-            android:value="AEdPqrEAAAAIM9uQLsN67JGvoTT_oSh6FBuAWDaHL7AsC3Qd7Q" />
+        <meta-data android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAI9QTwuJK4Qz4_47P66kS1CjrarwWmS5f2MMUgbw" />
 
         <activity
             android:name="com.battlelancer.seriesguide.ui.ShowsActivity"
@@ -152,7 +151,7 @@
 
         <provider
             android:name="com.battlelancer.seriesguide.provider.SeriesGuideProvider"
-            android:authorities="com.battlelancer.seriesguide.donate.provider" >
+            android:authorities="com.battlelancer.seriesguide.x.provider" >
         </provider>
 
         <activity

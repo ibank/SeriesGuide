@@ -18,7 +18,7 @@
 
 package com.battlelancer.seriesguide.util;
 
-import com.battlelancer.seriesguide.donate.R;
+import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.ui.ShowsActivity;
 
 import android.app.Activity;
