@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:installLocation="auto"
-    package="com.battlelancer.seriesguide"
+    package="com.battlelancer.seriesguide.donate"
     android:versionCode="134"
     android:versionName="2.4.2" >
 
@@ -20,7 +20,7 @@
         android:theme="@style/SeriesGuideTheme" >
         <meta-data
             android:name="com.google.android.backup.api_key"
-            android:value="AEdPqrEAAAAIToXnISqkDzDlKt206D1VdujnhhoFa0mAEM8Veg" />
+            android:value="AEdPqrEAAAAIM9uQLsN67JGvoTT_oSh6FBuAWDaHL7AsC3Qd7Q" />
 
         <activity
             android:name="com.battlelancer.seriesguide.ui.ShowsActivity"
@@ -60,7 +60,9 @@
                 android:resource="@xml/searchable" />
         </activity>
 
-        <receiver android:name="com.battlelancer.seriesguide.appwidget.ListWidgetProvider" android:label="@string/widget_label">
+        <receiver
+            android:name="com.battlelancer.seriesguide.appwidget.ListWidgetProvider"
+            android:label="@string/widget_label" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -149,8 +151,8 @@
         </activity>
 
         <provider
-            android:authorities="com.battlelancer.seriesguide"
-            android:name="com.battlelancer.seriesguide.provider.SeriesGuideProvider" >
+            android:name="com.battlelancer.seriesguide.provider.SeriesGuideProvider"
+            android:authorities="com.battlelancer.seriesguide.donate.provider" >
         </provider>
 
         <activity

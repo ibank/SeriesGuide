@@ -1,7 +1,7 @@
 
 package com.battlelancer.seriesguide.ui;
 
-import com.battlelancer.seriesguide.R;
+import com.battlelancer.seriesguide.donate.R;
 import com.battlelancer.seriesguide.util.ShareUtils.TraktCredentialsDialogFragment;
 
 import android.content.Intent;

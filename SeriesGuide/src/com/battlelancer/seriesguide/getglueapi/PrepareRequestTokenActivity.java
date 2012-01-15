@@ -2,7 +2,7 @@
 package com.battlelancer.seriesguide.getglueapi;
 
 import com.battlelancer.seriesguide.Constants;
-import com.battlelancer.seriesguide.R;
+import com.battlelancer.seriesguide.donate.R;
 import com.battlelancer.seriesguide.ui.BaseActivity;
 import com.battlelancer.seriesguide.util.ShareUtils;
 
