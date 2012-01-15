@@ -3,7 +3,7 @@
     android:installLocation="auto"
     package="com.battlelancer.seriesguide.donate"
     android:versionCode="134"
-    android:versionName="2.4.2" >
+    android:versionName="2.4.2x" >
 
     <uses-feature
         android:name="android.hardware.touchscreen"
