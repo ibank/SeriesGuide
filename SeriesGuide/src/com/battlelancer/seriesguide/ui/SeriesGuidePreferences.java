@@ -82,6 +82,8 @@ public class SeriesGuidePreferences extends SherlockPreferenceActivity {
 
     public static final String KEY_UPCOMING_LIMIT = "com.battlelancer.seriesguide.upcominglimit";
 
+    public static final String KEY_LANGUAGE = "language";
+
     public static final String SUPPORT_MAIL = "seriesguide@battlelancer.com";
 
     public static final String HELP_URL = "http://seriesguide.uwetrottmann.com/help";
@@ -181,22 +183,6 @@ public class SeriesGuidePreferences extends SherlockPreferenceActivity {
                 } else {
                     AnalyticsUtils.getInstance(activity).trackEvent("Settings",
                             "OnlySeasonEpisodes", "Disable", 0);
-                }
-                return false;
-            }
-        });
-
-        // Use my timezone
-        CheckBoxPreference useMyTimezone = (CheckBoxPreference) findPreference("com.battlelancer.seriesguide.usemytimezone");
-        useMyTimezone.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-
-            public boolean onPreferenceClick(Preference preference) {
-                if (((CheckBoxPreference) preference).isChecked()) {
-                    AnalyticsUtils.getInstance(activity).trackEvent("Settings", "Use my time zone",
-                            "Enable", 0);
-                } else {
-                    AnalyticsUtils.getInstance(activity).trackEvent("Settings", "Use my time zone",
-                            "Disable", 0);
                 }
                 return false;
             }

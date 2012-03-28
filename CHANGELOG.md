@@ -5,6 +5,12 @@ Changelog
 
 All dates are in the European Central timezone.
 
+Version 2.5.1 *(2012-03-28)*
+--------------------------------
+
+* Display correct time for non-US users, fix summer time issues. (All shows will update as a result of this).
+* Content language chooser in welcome dialog.
+
 Version 2.5 *(2012-03-08)*
 --------------------------------
 
