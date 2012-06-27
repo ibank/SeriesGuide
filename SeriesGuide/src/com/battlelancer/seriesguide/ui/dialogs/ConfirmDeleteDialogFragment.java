@@ -1,9 +1,9 @@
 
 package com.battlelancer.seriesguide.ui.dialogs;
 
-import com.battlelancer.seriesguide.R;
 import com.battlelancer.seriesguide.provider.SeriesContract.Shows;
 import com.battlelancer.seriesguide.util.DBUtils;
+import com.battlelancer.seriesguide.x.R;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
