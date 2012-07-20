@@ -5,6 +5,11 @@ Changelog
 
 All dates are in the European Central timezone.
 
+Version 2.7.1x *(2012-07-20)*
+--------------------------------
+
+* FIX Display 'Recent' on list widget, if appropiate, again.
+
 Version 2.7 *(2012-06-27)*
 --------------------------------
 
