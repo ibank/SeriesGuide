@@ -76,7 +76,7 @@ public class ShowsActivity extends BaseActivity {
 
     private static final int VER_SUMMERTIME_FIX = 136;
 
-    private static final int VER_HIGHRES_THUMBS = 140;
+    private static final int VER_HIGHRES_THUMBS = 141;
 
     private Bundle mSavedState;
 
