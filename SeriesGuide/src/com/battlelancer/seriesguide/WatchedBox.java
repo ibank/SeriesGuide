@@ -17,10 +17,11 @@
 
 package com.battlelancer.seriesguide;
 
+import com.battlelancer.seriesguide.x.R;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-import com.battlelancer.seriesguide.x.R;
 
 public class WatchedBox extends ImageView {
 

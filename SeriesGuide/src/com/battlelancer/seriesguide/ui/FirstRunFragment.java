@@ -18,8 +18,8 @@
 package com.battlelancer.seriesguide.ui;
 
 import com.actionbarsherlock.app.SherlockFragment;
-import com.battlelancer.seriesguide.R;
 import com.battlelancer.seriesguide.ui.dialogs.TraktCredentialsDialogFragment;
+import com.battlelancer.seriesguide.x.R;
 import com.google.analytics.tracking.android.EasyTracker;
 
 import android.content.Context;

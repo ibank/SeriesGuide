@@ -17,8 +17,8 @@
 
 package com.battlelancer.seriesguide.util;
 
-import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.items.SearchResult;
+import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.thetvdbapi.TheTVDB;
 import com.jakewharton.trakt.ServiceManager;
 import com.jakewharton.trakt.entities.TvShow;
