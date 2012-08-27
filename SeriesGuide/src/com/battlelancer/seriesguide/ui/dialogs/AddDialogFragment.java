@@ -27,8 +27,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
-import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.items.SearchResult;
+import com.battlelancer.seriesguide.x.R;
 import com.google.analytics.tracking.android.EasyTracker;
 
 /**

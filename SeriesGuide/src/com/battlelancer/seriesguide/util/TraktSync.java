@@ -29,7 +29,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-
 import com.battlelancer.seriesguide.provider.SeriesContract;
 import com.battlelancer.seriesguide.provider.SeriesContract.Episodes;
 import com.battlelancer.seriesguide.provider.SeriesContract.Seasons;

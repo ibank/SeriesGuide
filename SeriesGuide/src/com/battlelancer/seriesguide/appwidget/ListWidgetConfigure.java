@@ -29,9 +29,9 @@ import android.widget.RadioGroup;
 import android.widget.RemoteViews;
 
 import com.actionbarsherlock.app.SherlockActivity;
-import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.enums.WidgetListType;
 import com.battlelancer.seriesguide.util.Utils;
+import com.battlelancer.seriesguide.x.R;
 
 public class ListWidgetConfigure extends SherlockActivity {
 

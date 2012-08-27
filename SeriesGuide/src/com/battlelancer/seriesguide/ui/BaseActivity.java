@@ -28,11 +28,11 @@ import android.view.KeyEvent;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.provider.SeriesGuideDatabase;
 import com.battlelancer.seriesguide.util.TaskManager;
 import com.battlelancer.seriesguide.util.UpdateTask;
 import com.battlelancer.seriesguide.util.Utils;
+import com.battlelancer.seriesguide.x.R;
 
 /**
  * Provides some common functionality across all activities like setting the

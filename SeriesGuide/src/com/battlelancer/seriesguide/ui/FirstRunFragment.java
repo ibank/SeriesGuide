@@ -33,8 +33,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import com.actionbarsherlock.app.SherlockFragment;
-import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.ui.dialogs.TraktCredentialsDialogFragment;
+import com.battlelancer.seriesguide.x.R;
 import com.google.analytics.tracking.android.EasyTracker;
 
 /**

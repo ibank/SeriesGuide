@@ -30,7 +30,6 @@ import android.os.RemoteException;
 import android.preference.PreferenceManager;
 import android.text.format.DateUtils;
 
-import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.seriesguide.items.Series;
 import com.battlelancer.seriesguide.provider.SeriesContract;
 import com.battlelancer.seriesguide.provider.SeriesContract.EpisodeSearch;
@@ -40,6 +39,7 @@ import com.battlelancer.seriesguide.provider.SeriesContract.Shows;
 import com.battlelancer.seriesguide.ui.SeriesGuidePreferences;
 import com.battlelancer.seriesguide.ui.UpcomingFragment.UpcomingQuery;
 import com.battlelancer.seriesguide.util.FlagTask.OnFlagListener;
+import com.battlelancer.seriesguide.x.R;
 
 import java.util.ArrayList;
 import java.util.Date;
