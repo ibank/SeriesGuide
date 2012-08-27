@@ -17,6 +17,12 @@
 
 package com.battlelancer.seriesguide.ui;
 
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+
 import com.actionbarsherlock.app.ActionBar;
 import com.battlelancer.seriesguide.items.Series;
 import com.battlelancer.seriesguide.util.DBUtils;
@@ -26,12 +32,6 @@ import com.battlelancer.seriesguide.x.R;
 import com.battlelancer.thetvdbapi.TheTVDB;
 import com.google.analytics.tracking.android.EasyTracker;
 import com.uwetrottmann.androidutils.AndroidUtils;
-
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 
 /**
  * Hosts an {@link OverviewFragment}.

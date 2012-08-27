@@ -17,8 +17,16 @@
 
 package com.battlelancer.seriesguide.getglueapi;
 
-import com.battlelancer.seriesguide.util.Utils;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.res.Resources;
+import android.os.AsyncTask;
+import android.preference.PreferenceManager;
+import android.util.Log;
+import android.widget.Toast;
+
 import com.battlelancer.seriesguide.x.R;
+import com.battlelancer.seriesguide.util.Utils;
 import com.google.analytics.tracking.android.EasyTracker;
 import com.uwetrottmann.androidutils.AndroidUtils;
 
@@ -34,14 +42,6 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
-
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.res.Resources;
-import android.os.AsyncTask;
-import android.preference.PreferenceManager;
-import android.util.Log;
-import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
