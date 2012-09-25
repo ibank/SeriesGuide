@@ -18,10 +18,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.battlelancer.seriesguide.R;
 import com.battlelancer.seriesguide.provider.SeriesContract.ListItems;
 import com.battlelancer.seriesguide.provider.SeriesContract.Lists;
 import com.battlelancer.seriesguide.ui.OnListsChangedListener;
+import com.battlelancer.seriesguide.x.R;
 import com.google.analytics.tracking.android.EasyTracker;
 
 public class ListManageDialogFragment extends DialogFragment {

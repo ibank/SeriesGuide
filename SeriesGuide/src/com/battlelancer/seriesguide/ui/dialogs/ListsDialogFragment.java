@@ -29,11 +29,11 @@ import android.widget.Checkable;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
 
-import com.battlelancer.seriesguide.R;
 import com.battlelancer.seriesguide.provider.SeriesContract;
 import com.battlelancer.seriesguide.provider.SeriesContract.ListItems;
 import com.battlelancer.seriesguide.provider.SeriesContract.Lists;
 import com.battlelancer.seriesguide.provider.SeriesGuideDatabase.Tables;
+import com.battlelancer.seriesguide.x.R;
 import com.google.analytics.tracking.android.EasyTracker;
 
 import java.util.ArrayList;

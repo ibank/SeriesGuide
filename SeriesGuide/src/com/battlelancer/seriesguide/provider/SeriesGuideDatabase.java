@@ -37,7 +37,6 @@ import com.battlelancer.seriesguide.provider.SeriesContract.ListsColumns;
 import com.battlelancer.seriesguide.provider.SeriesContract.SeasonsColumns;
 import com.battlelancer.seriesguide.provider.SeriesContract.Shows;
 import com.battlelancer.seriesguide.provider.SeriesContract.ShowsColumns;
-import com.battlelancer.seriesguide.provider.SeriesGuideDatabase.Tables;
 import com.battlelancer.seriesguide.util.Utils;
 import com.uwetrottmann.androidutils.AndroidUtils;
 

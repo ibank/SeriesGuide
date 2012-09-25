@@ -41,7 +41,6 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-
 import com.battlelancer.seriesguide.adapters.ListsPagerAdapter;
 import com.battlelancer.seriesguide.adapters.ShowsPagerAdapter;
 import com.battlelancer.seriesguide.provider.SeriesContract.Shows;
